@@ -1,4 +1,5 @@
-node_modules
-.git
-.DS_Store
-src
+tests/
+src/
+*.ts
+tsconfig.json
+jest.config.js
