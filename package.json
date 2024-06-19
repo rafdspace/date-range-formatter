@@ -1,5 +1,5 @@
 {
-  "name": "date-range-string",
+  "name": "date-range-formatter",
   "version": "1.0.0",
   "description": "Function to generate simple date range string",
   "main": "index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "date-range-string"
+    "url": "date-range-formatter"
   },
   "author": "rafdspace",
   "license": "ISC",
