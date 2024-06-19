@@ -23,6 +23,10 @@ export const dateRange = ({ startDate, endDate }: DateRangeProps) => {
   const startDateObj = parseDate(startDate);
   const endDateObj = parseDate(endDate);
 
+  if (endDateObj.isBefore(startDateObj)) {
+    throw new Error('endDate cannot be before startDate');
+  }
+
   const startMonth = startDateObj.format("MMMM");
   const endMonth = endDateObj.format("MMMM");
   
